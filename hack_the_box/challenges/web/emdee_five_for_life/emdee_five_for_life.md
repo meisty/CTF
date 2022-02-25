@@ -22,7 +22,7 @@ So I realise its time to create a script to do this quickly.
 
 I craft a python script to do this using the requests, beautiful soup, sys and hashlib libraries:
 
-```python3
+```python
 import requests
 import sys
 from bs4 import BeautifulSoup

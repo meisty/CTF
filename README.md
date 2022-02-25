@@ -1,2 +1,3 @@
 # CTF
-CTF writeups, scripts and other useful information.
+
+Writeups and code from completing various CTFs and challenges.

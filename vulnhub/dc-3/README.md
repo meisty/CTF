@@ -1,4 +1,4 @@
-# Vulnhub - DC-3 - Easy machine
+# Vulnhub - DC-3 - Beginner machine
 
 So for this easy machine I started off with the usual nmap scan
 

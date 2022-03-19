@@ -1,6 +1,6 @@
-# Vulnhub - DC-3 - Easy machine
+# Vulnhub - DC-3 - Beginner machine
 
-So for this easy machine I started off with the usual nmap scan
+So for this beginner machine I started off with the usual nmap scan
 
 `nmap -sC -sV 10.0.2.25 -oN nmap/dc-3`
 

@@ -28,6 +28,8 @@ Upon finding these I had to determine where they could be used.  After running a
 [<img src="images/nmap.png"
   style="width: 800px;"/>](images/nmap.png)
 
+I determined that these credentials could be used for FTP. 
+
 After logging in a looking around you find flag3. 
 
 ```

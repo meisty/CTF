@@ -18,5 +18,5 @@ I headed over to an online tool to try and decipher the morse code:
 
 From the tool I got a load of 1s and 0s.  When put into [cyberchef](https://gchq.github.io/CyberChef/) and with the magic recipe you can see the flag `ITSGETTINGHOTINTHECTTCTF`
 
-[<img src="img/cooking_up_some_cyberz_chall.png"
-  style="width: 800px;"/>](img/cooking_up_some_cyberz_chall.png)
+[<img src="img/cooking_up_some_cyberz_cyberchef.png"
+  style="width: 800px;"/>](img/cooking_up_some_cyberz_cyberchef.png)

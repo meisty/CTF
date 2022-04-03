@@ -3,7 +3,7 @@
 ## PDFCrypt
 
 [<img src="img/encrypted_pdf_chall.png"
-  style="width: 800px;"/>](img/encrypted_pdf_chall.png)
+  style="width: 600px;"/>](img/encrypted_pdf_chall.png)
 
 I downloaded the PDF and attempted to open it.  It asked for a password. 
 

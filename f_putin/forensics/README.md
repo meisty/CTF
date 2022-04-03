@@ -35,15 +35,15 @@ I found a tool online which allowed me to convert the image into a JPG
 
 After putting the image through a google image reverse search I didn't really find much.  I looked closely at the photo and noticed that there was an arched railway bridge to the left of the photo which looked quite unique.  I did a quick google search to see if I could find something.  I used York too as I knew the creators of the CTF were based in that area.
 
-[<img src="img/the_hills_are_alive_google.jpg"
-  style="width: 800px;"/>](img/the_hills_are_alive_google.jpg)
+[<img src="img/the_hills_are_alive_google.png"
+  style="width: 800px;"/>](img/the_hills_are_alive_google.png)
 
 The first image of `Ribblehead Viaduct` looked promising. So I went to google maps to take a look. 
 
-[<img src="img/the_hills_are_alive_google2.jpg"
-  style="width: 800px;"/>](img/the_hills_are_alive_google2.jpg)
+[<img src="img/the_hills_are_alive_google2.png"
+  style="width: 800px;"/>](img/the_hills_are_alive_google2.png)
 
 So I was sure this could be it, but the challenge asked for the hill the photo was taken from. I couldn't see anything on google maps so one more google search was required to get the flag.
 
-[<img src="img/the_hills_are_alive_google3.jpg"
-  style="width: 800px;"/>](img/the_hills_are_alive_google3.jpg)
+[<img src="img/the_hills_are_alive_google3.png"
+  style="width: 800px;"/>](img/the_hills_are_alive_google3.png)

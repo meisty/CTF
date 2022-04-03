@@ -7,7 +7,7 @@ This was an easy 10 point challenge and the only challenge I attempted in this c
 From the challenge description you are given what appears to be lines and dots.
 
 [<img src="img/cooking_up_some_cyberz_chall.png"
-  style="width: 800px;"/>](img/cooking_up_some_cyberz_chall.png)
+  style="width: 600px;"/>](img/cooking_up_some_cyberz_chall.png)
 
 My initial thought was this was some kind of encoding that I needed to decode. But then I realised it was morse code, with the lines and dots. 
 

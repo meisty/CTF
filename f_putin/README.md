@@ -9,3 +9,8 @@ It was organised by Amy and Shaun from [Capture The Talent](https://capturetheta
 The event was really well organised and everyone that took part were friendly and there was a great community feeling to this one.  I look forward to competing in future CTT events, thanks for taking the time and effort to put on such a fun event. 
 
 It was a great mix of fun challenges that almost everyone could solve to more difficult ones that had you stuck for a substantial period of time.  I really enjoyed it and have put together writeups of some of the challenges I solved during the event. I didn't make notes on all of the challenges I solved, something I need to work on. 
+
+[<img src="meisty_standings.png"
+  style="width: 250px;"/>](meisty_standings.png)
+  
+I finished 7th out of 26 participants so really happy with top 10.  Learnt a lot along the way and I have a new love for OSINT challenges.  

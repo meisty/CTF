@@ -21,7 +21,7 @@ Upon opening the PDF you can see the flag.
 ## The Hills are alive!
 
 [<img src="img/the_hills_are_alive_chall.png"
-  style="width: 800px;"/>](img/the_hills_are_alive.png)
+  style="width: 600px;"/>](img/the_hills_are_alive.png)
 
 All that is provided is an image which is .HEIC format. I was not able to open it. 
 

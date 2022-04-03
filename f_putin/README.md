@@ -1,8 +1,8 @@
-# F**k you Putin CTF
+# CTT F**k you Putin CTF
 
 Between 02/04/22 - 03/04/22 I took part in a Capture the Flag event set up to raise funds for [British Ukrainian Aid](https://british-ukrainianaid.org/)
 
-[F**k you putin justgiving](https://justgiving.com/fundraising/capturethetalent)
+[CTT F**k you putin justgiving](https://justgiving.com/fundraising/capturethetalent)
 
 It was organised by Amy and Shaun from [Capture The Talent](https://capturethetalent.co.uk/) 
 

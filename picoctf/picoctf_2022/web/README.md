@@ -27,3 +27,82 @@ After connecting to the postgres instance and having a look around I found the f
 
 [<img src="img/psql_table.png"
   style="width: 800px;"/>](img/psql_table.png)
+
+### Forbidden Paths
+
+[<img src="img/forbidden_paths_chall.png"
+  style="width: 800px;"/>](img/forbidden_paths_chall.png)
+
+Looking at the page and the title it looks like its going to be path traversal to read the flag. 
+
+[<img src="img/forbidden_paths_sol.png"
+  style="width: 800px;"/>](img/forbidden_paths_sol.png)
+
+`../../../../../../../flag.txt`
+
+[<img src="img/forbidden_paths_ans.png"
+  style="width: 800px;"/>](img/forbidden_paths_ans.png)
+  
+### Local Authority
+
+[<img src="img/local_authority_chall.png"
+  style="width: 800px;"/>](img/local_authority_chall.png)
+
+My initial thoughts for this challenge was that it was going to be a SQL injection challenge.  Tried a few payloads and got nowhere.  
+
+[<img src="img/local_authority_page.png"
+  style="width: 800px;"/>](img/local_authority_page.png)
+  
+So I thought I would take a look at the source code in case there was anything interesting. 
+
+[<img src="img/local_authority_source.png"
+  style="width: 800px;"/>](img/local_authority_source.png)
+  
+[<img src="img/local_authority_credentials.png"
+  style="width: 800px;"/>](img/local_authority_credentials.png)
+
+And there we have it, the credentials we need to login.  Once logged in the flag is provided to us. 
+
+[<img src="img/local_authority_ans.png"
+  style="width: 800px;"/>](img/local_authority_ans.png)
+  
+### Roboto Sans
+
+[<img src="img/roboto_sans_chall.png"
+  style="width: 800px;"/>](img/roboto_sans_chall.png)
+  
+With this challenge I guessed it could be something to do with the robots.txt file which things are hidden in during the usual CTFs. 
+
+[<img src="img/roboto_sans_robots.png"
+  style="width: 800px;"/>](img/roboto_sans_robots.png)
+  
+Looks like base64.  Time to decode it
+
+`echo <base64_string> | base64 -d`
+
+[<img src="img/roboto_sans_base64.png"
+  style="width: 800px;"/>](img/roboto_sans_base64.png)
+  
+Another hidden file.  When taking a look at the hidden file I found the flag.
+
+[<img src="img/roboto_sans_ans.png"
+  style="width: 800px;"/>](img/roboto_sans_ans.png)
+  
+### SQL Lite
+
+[<img src="img/sql_lite_chall.png"
+  style="width: 800px;"/>](img/sql_lite_chall.png)
+  
+So this time, this has to be a SQL injection challenge right?
+
+
+[<img src="img/sql_lite_sol.png"
+  style="width: 800px;"/>](img/sql_lite_sol.png)
+  
+[<img src="img/sql_lite_answer_page.png"
+  style="width: 800px;"/>](img/sql_lite_answer_page.png)
+  
+Yup we are in.  But no flag? What gives?  Sneaky.  Looks like it may be hidden, lets check the source code. 
+
+[<img src="img/sql_lite_answer_source.png"
+  style="width: 800px;"/>](img/sql_lite_answer_source.png)

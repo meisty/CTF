@@ -106,3 +106,15 @@ Yup we are in.  But no flag? What gives?  Sneaky.  Looks like it may be hidden, 
 
 [<img src="img/sql_lite_answer_source.png"
   style="width: 800px;"/>](img/sql_lite_answer_source.png)
+
+### Search Source
+
+[<img src="img/search_source_chall.png"
+  style="width: 800px;"/>](img/search_source_chall.png)
+  
+So this one made it sound like it was easy right?  Look through the source code and find the flag.  
+
+I spent a lot longer than I should have on this one.  Manually searched the source code and couldn't see anything.  Eventually realised I could just download the source code and then use grep to look through it a lot quicker. 
+
+[<img src="img/search_source_ans.png"
+  style="width: 800px;"/>](img/search_source_ans.png)

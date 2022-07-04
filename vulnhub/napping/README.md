@@ -23,7 +23,7 @@ I could see that the link I entered would be visited by an admin.  So initially 
 
 
 [<img src="img/req.png"
-  style="width: 800px;"/>](img/req.png)
+  style="width: 700px;"/>](img/req.png)
 
 I tried to get XSS to work but it was not vulnerable to it.  I got stuck here for a while and then I realised that the name of the box was hinting to the vulnerability, tab napping.  This is something I have heard of before but not something I have ever exploited or seen any POC for.  So I did some googling.  I found a couple of good articles including this one from OWASP https://owasp.org/www-community/attacks/Reverse_Tabnabbing
 
@@ -38,15 +38,15 @@ style="width: 800px;"/>](img/blogsrc.png)
 With the 2 files created I started a python3 web server on port 80 and then a netcat listener on port 8000 and waited...
 
 [<img src="img/connection.png"
-  style="width: 800px;"/>](img/connection.png)
+  style="width: 700px;"/>](img/connection.png)
 
 [<img src="img/tabnapped.png"
-  style="width: 800px;"/>](img/tabnapped.png)
+  style="width: 700px;"/>](img/tabnapped.png)
 
 Now I had the credentials for daniel `daniel:C@ughtm3napping123`.  I logged in via SSH.
 
 [<img src="img/ssh.png"
-  style="width: 800px;"/>](img/ssh.png)
+  style="width: 700px;"/>](img/ssh.png)
 
 ## Priv Esc
 
@@ -55,42 +55,42 @@ There was no sign of a user.txt file in daniel's home directory and I noticed th
 I could access the query.py file, which I took a look at.  
 
 [<img src="img/query.png"
-  style="width: 800px;"/>](img/query.png)
+  style="width: 700px;"/>](img/query.png)
 
 As I had write permission to this file I added some code to execute a shell script which I had created in /dev/shm to get a reverse shell from the machine.
 
 [<img src="img/amendedquery.png"
-  style="width: 800px;"/>](img/amendedquery.png)
+  style="width: 700px;"/>](img/amendedquery.png)
 
 [<img src="img/revshell.png"
-  style="width: 800px;"/>](img/revshell.png)
+  style="width: 700px;"/>](img/revshell.png)
 
 I setup a netcat listener on my local machine and waited as I could see from the query.py file that it was due to run every few minutes.
 
 [<img src="img/revshellexec.png"
-  style="width: 800px;"/>](img/revshellexec.png)
+  style="width: 700px;"/>](img/revshellexec.png)
 
 I read the user.txt file in adrians home directory:
 
 [<img src="img/user.png"
-  style="width: 800px;"/>](img/user.png)
+  style="width: 700px;"/>](img/user.png)
 
 ## Priv Esc 2
 
 Running `sudo -l` I could see that adrian can run `/usr/bin/vim` as sudo with no password.
 
 [<img src="img/sudo.png"
-  style="width: 800px;"/>](img/sudo.png)
+  style="width: 700px;"/>](img/sudo.png)
 
 I checked GTFOBins to see if there was a way to use this to escalate my privileges to root.  And there was a very simple way to do it:
 
 `sudo /usr/bin/vim -c ':!/bin/sh'`
 
 [<img src="img/gtfobins.png"
-  style="width: 800px;"/>](img/gtfobins.png)
+  style="width: 700px;"/>](img/gtfobins.png)
 
 [<img src="img/privesc.png"
-  style="width: 800px;"/>](img/privesc.png)
+  style="width: 700px;"/>](img/privesc.png)
 
 I was root and I read /root/root.txt.
 

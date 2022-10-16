@@ -1,11 +1,3 @@
----
-layout: post
-title: Shenron2 Vulnhub machine
-description: Walkthrough and writeup for Shenron2 Vulnhub virtual machine
----
-
-## Writeup of the [Shenron2](https://www.vulnhub.com/entry/shenron-2,677/) Vulnhub machine
-
 Shenron1 was great, now time to tackle number 2.  Should be another easy machine but you never know.  Sometimes its just something you don't know and you need to google your way out of it. 
 
 [<img src="images/80.png"

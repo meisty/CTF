@@ -1,11 +1,3 @@
----
-layout: post
-title: Shenron3 Vulnhub machine
-description: Walkthrough and writeup for Shenron3 Vulnhub virtual machine
----
-
-## Writeup of the [Shenron3](https://www.vulnhub.com/entry/shenron-3,682/) Vulnhub machine
-
 Shenron1... done.  Shenron2...done.  Now for the finale.  I have enjoyed the first 2 machines, lets see what challenges lie in store for the last machine. 
 
 [<img src="images/wpfixed.png"

@@ -90,6 +90,9 @@ reset; sh 1>&0 2>&0
 
 OSINT challenge.  Started with just a pokemon go map and a clue. 
 
+[<img src="img/pokemongo.png"
+  style="width: 600px;"/>](img/pokemongo.png)
+
 The clue spoke of the fast food restaurant being near the punk HQ.  I googled the HQ of punk security and looked at google maps.  And I found this.
 
 [https://www.google.com/maps/place/Jubilee+Chop+Suey+House/@54.3393597,-1.4197077,17z/data=!4m14!1m7!3m6!1s0x487ebdca21bcacfd:0x39e74c217e8fbf89!2sC4DI+Group+Northallerton!8m2!3d54.3387687!4d-1.4308979!16s%2Fg%2F11rnd29bt6!3m5!1s0x487ebc7fa06a4a21:0xdd938a49f6fdf37d!8m2!3d54.3398644!4d-1.4190688!16s%2Fg%2F11hcd_r7td?entry=ttu](https://www.google.com/maps/place/Jubilee+Chop+Suey+House/@54.3393597,-1.4197077,17z/data=!4m14!1m7!3m6!1s0x487ebdca21bcacfd:0x39e74c217e8fbf89!2sC4DI+Group+Northallerton!8m2!3d54.3387687!4d-1.4308979!16s%2Fg%2F11rnd29bt6!3m5!1s0x487ebc7fa06a4a21:0xdd938a49f6fdf37d!8m2!3d54.3398644!4d-1.4190688!16s%2Fg%2F11hcd_r7td?entry=ttu)
@@ -147,7 +150,7 @@ register. Access may be withdrawn or restricted at any time.
 
 ## Password cracking 3
 
-[<img src="img/passwordcracking3.png"
+[<img src="img/passworcracking3.png"
   style="width: 600px;"/>](img/passworcracking3.png)
 
 This was just base64 encoded

@@ -108,7 +108,7 @@ file quartet.z04
 quartet.z04: Zip archive data, made by v3.0 UNIX, extract using at least v2.0, last modified May 10 2025 04:28:04, uncompressed size 2035495, method=deflate
 ```
 
-After some googling it turns out this is a multipart zip file.  So I renamed quartet.z04 to quartet.zip and was able to extract data. 
+After some googling it turns out this is a multi-volume zip file.  So I renamed quartet.z04 to quartet.zip and was able to extract data. 
 
 ```bash
 mv quartet.z04 quartet.zip

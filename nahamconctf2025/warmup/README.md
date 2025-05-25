@@ -87,7 +87,7 @@ python3 exploit.py
 <SNIP>
 
 Press enter to continue...
-hanging about the house all night and spying upon the women? Be off, you wretch, outside, and eat your supper there, or you shall be driven out with a firebrand." Ulysses scowled at her and answered, "flag{0b51aae6b09b85d1bb13b0b8c3003a6a}". Penelope remarked "that's kind of a weird thing to say in this context." To which Ulysses responded "yeah I don't know, it kinda just came to me ¯\_(ツ)_/¯" Then Ulysses said "My good woman, why should you be so angry with me? Is it because I am not clean, and my clothes are all in rags, and because I am obliged to go
+hanging about the <SNIP>, "flag{0b51aae6b09b85d1bb13b0b8c3003a6a}". Penelope remarked "that's kind of a weird thing to say in this context." To which Ulysses responded "yeah I don't know, it kinda just came to me ¯\_(ツ)_/¯" Then Ulysses said "My good woman, why should you be so angry with me? Is it because I am not clean, and my clothes are all in rags, and because I am obliged to go
 
 Press enter to continue...
 ```

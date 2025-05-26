@@ -143,7 +143,7 @@ Upon joining you are giving a JWT with a very long wait time.
 I tried create a None alg JWT and used that, which gave a 500 error which disclosed the JWT secret.
 
 [<img src="jwt_secret.png"
-  style="width: 800px;"/>](jwtsecret.png)
+  style="width: 800px;"/>](jwt_secret.png)
 
 I could now forge a JWT with low wait time, to bypass the queue. 
 

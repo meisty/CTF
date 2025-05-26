@@ -14,6 +14,3 @@ Here are some writeups for some of the challenges I completed.
 
 [<img src="cert.png"
   style="width: 800px;"/>](cert.png)
-
-[<img src="participants.png"
-  style="width: 800px;"/>](participants.png)

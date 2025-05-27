@@ -3,12 +3,12 @@
 ## My Second CTF
 
 [<img src="mysecondctfchall.png"
-  style="width: 800px;"/>](mysecondctfchall.png)
+/>](mysecondctfchall.png)
 
 We were provided with a wordlist.  Looking at the site nothing is really obvious. 
 
 [<img src="mysecondctf.png"
-  style="width: 800px;"/>](mysecondctf.png)
+/>](mysecondctf.png)
 
 It felt like this was going to be caesar cipher related based on the my first ctf challenge.  So I took the wordlist and created a wordlist with all caesar cipher possibilities. 
 
@@ -73,7 +73,7 @@ fgdwi                   [Status: 301, Size: 169, Words: 5, Lines: 8, Duration: 1
 When looking at that page we saw.
 
 [<img src="missingparam.png"
-  style="width: 800px;"/>](missingparam.png)
+/>](missingparam.png)
 
 Lets try find the missing param.
 
@@ -110,40 +110,40 @@ Got a hit with `eqphkto` which equated to `confirm`.
 Which gave us the flag.
 
 [<img src="ctf2flag.png"
-  style="width: 800px;"/>](ctfflag2.png)
+/>](ctfflag2.png)
 
 ## My third CTF
 
 [<img src="mythirdctfchall.png"
-  style="width: 800px;"/>](mythirdctfchall.png)
+/>](mythirdctfchall.png)
 
 Similar to my second ctf I used the wordlist I had created and ran it against the url subsequent times to find the full url giving the flag.
 
 [<img src="mythirdctfflag.png"
-  style="width: 800px;"/>](mythirdctfflag.png)
+/>](mythirdctfflag.png)
 
 ## Infinite queue
 
 [<img src="infinitequeuechall.png"
-  style="width: 800px;"/>](infinitequeuechall.png)
+/>](infinitequeuechall.png)
 
 There was an option to join the queue for tickets. 
 
 [<img src="queue.png"
-  style="width: 800px;"/>](queue.png)
+/>](queue.png)
 
 Upon joining you are giving a JWT with a very long wait time. 
 
 [<img src="longwait.png"
-  style="width: 800px;"/>](longwait.png)
+/>](longwait.png)
 
 [<img src="jwt.png"
-  style="width: 800px;"/>](jwt.png)
+/>](jwt.png)
 
 I tried create a None alg JWT and used that, which gave a 500 error which disclosed the JWT secret.
 
 [<img src="jwt_secret.png"
-  style="width: 800px;"/>](jwt_secret.png)
+/>](jwt_secret.png)
 
 I could now forge a JWT with low wait time, to bypass the queue. 
 
@@ -168,22 +168,22 @@ print(token)
 ```
 
 [<img src="purchase.png"
-  style="width: 800px;"/>](purchase.png)
+/>](purchase.png)
 
 With that I was able to get the flag.
 
 [<img src="queueflag.png"
-  style="width: 800px;"/>](queueflag.png)
+/>](queueflag.png)
 
 ## Advanced screening
 
 [<img src="advancedscreeningchall.png"
-  style="width: 800px;"/>](advancedscreeningchall.png)
+/>](advancedscreeningchall.png)
 
 We see a site.
 
 [<img src="advancedscreening.png"
-  style="width: 800px;"/>](advancedscreening.png)
+/>](advancedscreening.png)
 
 But looking at the app.js file we see an interesting function which is called after previous functions to validate codes etc:
 
@@ -200,10 +200,10 @@ So rather than trying to get a valid code, we can just search for screen-tokens 
 A few attempts yields nothing, but then we find something. 
 
 [<img src="notfound.png"
-  style="width: 800px;"/>](notfound.png)
+/>](notfound.png)
 
 [<img src="hash.png"
-  style="width: 800px;"/>](hash.png)
+/>](hash.png)
 
 We can now use something else in the js file
 
@@ -214,27 +214,27 @@ We can now use something else in the js file
 ```
 
 [<img src="screenflag.png"
-  style="width: 800px;"/>](screenflag.png)
+/>](screenflag.png)
 
 ## Method in the madness
 
 [<img src="methodinthemadnesschall.png"
-  style="width: 800px;"/>](methodinthemadnesschall.png)
+/>](methodinthemadnesschall.png)
 
 Looking at the site there are some check boxes and a link to a page. 
 
 [<img src="methodpage.png"
-  style="width: 800px;"/>](methodpage.png)
+/>](methodpage.png)
 
 The linked page is just this.
 
 [<img src="interesting.png"
-  style="width: 800px;"/>](interesting.png)
+/>](interesting.png)
 
 But after visiting I notice one of the checkboxes is now filled in.  
 
 [<img src="get.png"
-  style="width: 800px;"/>](get.png)
+/>](get.png)
 
 So it turns out based on the name of the challenge that we just need to use multiple HTTP Methods on the interesting page in order get the flag, including:
 
@@ -247,5 +247,5 @@ DELETE
 OPTIONS
 ```
 [<img src="methodflag.png"
-  style="width: 800px;"/>](methodflag.png)
+/>](methodflag.png)
 

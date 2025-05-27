@@ -2,8 +2,7 @@
 
 ## The Best Butler
 
-[<img src="bestbutlerchall.png"
-  style="width: 800px;"/>](bestbutlerchall.png)
+[<img src="bestbutlerchall.png"/>](bestbutlerchall.png)
 
 Looking at the page it was a Jenkins instance. 
 
@@ -12,8 +11,7 @@ Looking at the page it was a Jenkins instance.
 
 I tried using the script console to get code execution but I was met with this error around missing crumb.  
 
-[<img src="crumb.png"
-  style="width: 800px;"/>](crumb.png)
+[<img src="crumb.png"/>](crumb.png)
 
 I tried getting a valid crumb and sending the request again but it wasn't working for me.  
 

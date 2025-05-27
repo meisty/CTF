@@ -2,8 +2,7 @@
 
 ## The Martian
 
-[<img src="themartianchall.png"
-  style="width: 800px;"/>](themartianchall.png)
+[<img src="themartianchall.png"/>](themartianchall.png)
 
 You are provided with a file `challenge.martian`.  
 
@@ -26,5 +25,4 @@ challenge: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segme
 
 Opening it shows us the flag.
 
-[<img src="challflag.png"
-  style="width: 800px;"/>](challflag.png)
+[<img src="challflag.png"/>](challflag.png)

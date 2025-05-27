@@ -11,4 +11,4 @@ Unfortunately this year not many of us could take part in the CTF but we had fun
 
 Here are some writeups for some of the challenges I completed.  
 
-[<img src="cert.png""/>](cert.png)
+[<img src="cert.png"/>](cert.png)

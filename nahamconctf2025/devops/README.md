@@ -6,8 +6,7 @@
 
 Looking at the page it was a Jenkins instance. 
 
-[<img src="jenkins.png"
-  style="width: 800px;"/>](jenkins.png)
+[<img src="jenkins.png"/>](jenkins.png)
 
 I tried using the script console to get code execution but I was met with this error around missing crumb.  
 

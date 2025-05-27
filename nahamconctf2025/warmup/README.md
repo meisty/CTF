@@ -2,8 +2,7 @@
 
 ## Free Flags
 
-[<img src="freeflagschall.png"
-  style="width: 800px;"/>](freeflagschall.png)
+[<img src="freeflagschall.png"/>](freeflagschall.png)
 
 We were given a file containing so many flags, but only one of them was valid.  
 
@@ -41,8 +40,7 @@ flag{ae6b6fb0686ec594652afe9eb6088167}
 
 ## The Oddyssey
 
-[<img src="oddysseychall.png"
-  style="width: 800px;"/>](oddysseychall.png)
+[<img src="oddysseychall.png"/>](oddysseychall.png)
 
 A server to connect to via nc is provided.  Connecting just allows us to press enter to print out excerpts of text. 
 
@@ -94,8 +92,7 @@ Press enter to continue...
 
 ## Quartet
 
-[<img src="quartetchell.png"
-  style="width: 800px;"/>](quartetchell.png)
+[<img src="quartetchell.png"/>](quartetchell.png)
 
 4 `.z0x` files were provided. But checking the files with `file` we can see one of them is slightly different. 
 
@@ -141,8 +138,7 @@ Compressed: 2030882
 
 We now have quartet.jpeg.  And upon opening the image.
 
-[<img src="quartetjpeg.png"
-  style="width: 800px;"/>](quartetjpeg.png)
+[<img src="quartetjpeg.png"/>](quartetjpeg.png)
 
 Must be something hidden in this image.  Lets take a look with xxd.
 
